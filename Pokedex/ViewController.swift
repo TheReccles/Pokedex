@@ -14,8 +14,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //commented code below would be how i make an instance of a pokemon manually but we will do it dynamically in this project
-        //let charmander = Pokemon(name: "Charmander", pokedexId: 4)
         
         collection.dataSource = self
         collection.delegate = self
